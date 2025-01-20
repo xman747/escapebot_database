@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "escape-aggregator"
+version = "0.1.0"
+description = "Mongo aggregator for the Escape project."
+authors = [
+    { name = "Wyatt Lindsey", email = "wyattxlindsey@outlook.com" }
+]
+license = "MIT"
+requires-python = ">=3.7"
+
+dependencies = [
+    "pymongo",
+    "pyyaml",
+    "pandas",
+    "numpy"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
