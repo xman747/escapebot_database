@@ -9,7 +9,7 @@ description = "Mongo aggregator for the Escape project."
 authors = [
     { name = "Wyatt Lindsey", email = "wyattxlindsey@outlook.com" }
 ]
-license = "MIT"
+license = { file = "LICENSE" }
 requires-python = ">=3.7"
 
 dependencies = [
