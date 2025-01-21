@@ -1,7 +1,7 @@
 Metadata-Version: 2.2
 Name: escapeaggregator
-Version: 0.1.0
-Summary: Mongo aggregator for the Escape project.
+Version: 0.1.2
+Summary: A Mongo aggregator for the Escape project.
 Author-email: Wyatt Lindsey <wyattxlindsey@outlook.com>
 License: MIT License
         
@@ -27,6 +27,7 @@ License: MIT License
         
 Project-URL: Homepage, https://github.com/xman747/escapebot_database
 Project-URL: Source, https://github.com/xman747/escapebot_database
+Project-URL: Issues, https://github.com/xman747/escapebot_database/issues
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent

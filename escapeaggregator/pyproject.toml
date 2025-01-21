@@ -4,28 +4,30 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "escapeaggregator"
-version = "0.1.0"
-description = "Mongo aggregator for the Escape project."
-license = { file = "LICENSE" }
+version = "0.1.2"
+description = "A Mongo aggregator for the Escape project."
 readme = "README.md"
+license = { file = "LICENSE" }
 authors = [
-  { name="Wyatt Lindsey", email="wyattxlindsey@outlook.com" }
+    { name="Wyatt Lindsey", email="wyattxlindsey@outlook.com" }
 ]
 requires-python = ">=3.7"
 
+# The dependencies your aggregator needs:
 dependencies = [
-  "pymongo",
-  "pyyaml",
-  "pandas",
-  "numpy"
+    "pymongo",
+    "pyyaml",
+    "pandas",
+    "numpy"
 ]
 
 classifiers = [
-  "Programming Language :: Python :: 3",
-  "License :: OSI Approved :: MIT License",
-  "Operating System :: OS Independent"
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
 ]
 
 [project.urls]
 "Homepage" = "https://github.com/xman747/escapebot_database"
 "Source" = "https://github.com/xman747/escapebot_database"
+"Issues" = "https://github.com/xman747/escapebot_database/issues"
