@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "escapeaggregator"
+version = "0.1.0"
+description = "Mongo aggregator for the Escape project."
+license = { file = "LICENSE" }
+readme = "README.md"
+authors = [
+  { name="Wyatt Lindsey", email="wyattxlindsey@outlook.com" }
+]
+requires-python = ">=3.7"
+
+dependencies = [
+  "pymongo",
+  "pyyaml",
+  "pandas",
+  "numpy"
+]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/xman747/escapebot_database"
+"Source" = "https://github.com/xman747/escapebot_database"

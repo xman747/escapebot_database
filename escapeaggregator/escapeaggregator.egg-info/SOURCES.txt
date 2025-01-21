@@ -1,0 +1,9 @@
+LICENSE
+README.md
+aggregator.py
+pyproject.toml
+escapeaggregator.egg-info/PKG-INFO
+escapeaggregator.egg-info/SOURCES.txt
+escapeaggregator.egg-info/dependency_links.txt
+escapeaggregator.egg-info/requires.txt
+escapeaggregator.egg-info/top_level.txt
